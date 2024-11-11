@@ -1,7 +1,8 @@
 <!--This receipe is taken from https://cooking.nytimes.com/recipes/1012494-spinach-tofu-and-sesame-stir-fry -->
 
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="EN-CA">
+  <head>
   <meta charset="utc-8">
   <title>Exercise 7: Typography</title>
   <!--Created By Tristan Whalen-->
@@ -9,55 +10,87 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <style>
-    .myDiv {
-  border: 5px outset yellow;
-  background-color: lightblue;
-  text-align: center;
-}
-    body {
-      font-family: 'Roboto', sans serif;
-      background-color: Yellow;
-      margin: 0;
-      display: 15px
-        }
-    h1,h2,h3 {
-      font-family: 'arial', sans serif;
-      background-color: Yellow;
-      margin: 0;
-      display: 15px
+      html {
+        font-size: 14px;
+        line-height: 1;
+        font-style: normal;
+        font-family: "Arial", sans-serif;
+        font-optical-sizing: auto;
+      
+      }
+
+      body {
+        margin: 0;
+        padding: 15px;
+      }
+    h1 {
+      font-weight: 800px
+      
+      
+    }
+      #div {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+      }
+
+      .column {
+        display: inline-block;
+        vertical-align: top;
+      }
+h2 {
+      font-weight: 600px
+      
+      
+    }
+      .left-column {
+        width: 30%;
+        padding-right: 20px;
+      }
+
+      .right-column {
+        width: 65%;
+      }
+h3 {
+      font-weight: 400px
+      
+      
+    }
+      mark {
+        background-color: black;
+        color: white;
+      }
+
+      p,
+      li {
+        font-family: "Lora", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+      
+      
       
     }
   
-  
-    .container{
-      width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      gap 10px
-       
-    }
-    
-  
-  
-  
-  
-  
-  
-  
-  
   </style>
-  <div class="myDiv">
-  
-</div>
-
-  <body>
+  </head>
+    <body>
+ <div id="div">
+   <div class="left column">
+     
     <h1>Spinach, Tofu and Sesame Stir-Fry</h1>
     By: Martha Rose Shulman<br>
     Yield: 3 Servings
     <img src="recipe-photo-Enhanced-SR (1).jpg" alt="Stir Fry">
     <h2>Ingredients</h2>
 
-    <p1>
       <ul>
         <li>tablespoon canola oil</li>
         <li>½ pound tofu, cut in small dice</li>
@@ -69,8 +102,7 @@
         <li>2 tablespoons toasted sesame seeds</li>
         <li>1 teaspoon sesame oil</li>
       </ul>
-    </p1>
-
+   </div>
     <h3>Preparation</h3>
 
     Step 1<br>
@@ -84,5 +116,6 @@
     <p1>Tip<br>
       Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.
     </p1>
+    </div>
   </body>
 </html>
